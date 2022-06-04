@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="com.flipcart.testcases.LoginTestcase">
+        <methods>
+          <include name="login"/>
+          <include name="browserSetup"/>
+          <include name="softAssert"/>
+        </methods>
+      </class> <!-- com.flipcart.testcases.LoginTestcase -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
